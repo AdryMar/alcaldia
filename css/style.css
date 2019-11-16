@@ -1,12 +1,28 @@
 /*Menú*/
 .navbar {
-    padding: 10px 95px 0px 57px !important
+    padding: 10px 95px 0px 57px !important;
+
+
 }
 
 .enlace li a {
     padding-left: 95px !important;
-    color: #7F8081;
+    color: #7F8081 !important;
     font-size: 1.0rem;
+}
+
+.top-nav-collapse {
+
+    background-color: aqua !important
+}
+
+.escudo {
+    width: 15%;
+    margin-right: 210px
+}
+
+.blocque {
+    display: inline-block !important
 }
 
 .menu {
@@ -19,11 +35,11 @@
 }
 
 .banner {
-    background-image: url(../img/1.jpeg);
+    background-image: url(../img/1.png);
     background-repeat: no-repeat;
     background-size: 100vw 120vh;
     height: 120vh;
-    padding-top: 210px;
+    padding-top: 230px;
 }
 
 /*Encuentra*/
@@ -32,10 +48,12 @@
 }
 
 .encuentra h2 {
-    font-size: 4.0rem !important;
+    font-size: 4.8rem !important;
     font-weight: bold;
     color: #AEAEAE;
     font-family: 'Alatsi', sans-serif;
+    line-height: 75px;
+    padding-bottom: 15px
 }
 
 .buscador {
@@ -43,21 +61,125 @@
 }
 
 .buscar {
-    border-radius: 9px !important;
-    padding: 17px 210px 17px 10px !important;
-    font-weight: bold !important;
+    border-radius: 15px !important;
+    padding: 25px 170px 25px 15px !important;
+    border: none !important;
+    font-size: 1.3rem !important
 }
 
-.lupa{
+.lupa {
     background: #083971;
-    padding: 10px;
+    padding: 15px;
     border-radius: 100%;
     color: white;
 }
 
+/*Ofertas*/
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.row-equal .card {
+    width: 100%;
+}
+
+
+.carousel-inner > .row-equal.active,
+.carousel-inner > .row-equal.next,
+.carousel-inner > .row-equal.prev {
+    display: flex;
+}
+
+
+.carousel-inner > .row-equal.active.left,
+.carousel-inner > .row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+
+.card-img-top-250 {
+    max-height: 250px;
+    overflow: hidden;
+   
+}
+.flechacentro{
+    color: #dbaa07 !important;
+    padding: 0px 70px
+}
+.flecha {
+    margin-top: 155px;
+    position: absolute;
+    font-size: 1.5rem;
+    color: #ACACAC !important
+
+
+}
+
+.flecha1 {
+    float: right;
+    position: relative;
+}
+
+.ofertas {
+    padding: 0px 50px 100px 50px
+}
+
+.cardtar {
+
+    border-radius: 15px !important;
+    background-color: #F4F4F4 !important;
+}
+.dentro{
+    padding: 15px 25px;
+    background-color: #F4F4F4;
+}
+.corazon i{
+    font-size: 1.2rem;
+    color: #3e3e3e;
+}
+
+.cardtar1 {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important
+}
+
+.sansalvador{
+    padding-top: 3px;
+}
+.mapa{
+    font-size: 1.2rem;   
+}
+
+.localizacion{
+    color: #999a9b;
+}
+
+.textoferta {
+    font-size: 2.2rem !important;
+    color: #7c7c7c;
+    font-weight: 00;
+    font-family: 'Alatsi', sans-serif;
+}
+.nuevo{
+    position: absolute;
+    margin-top: -160px
+}
+
+.nombreempresa h6{
+    color: #727476;
+    font-weight: bold !important;
+}
+.pasantia{
+    font-size: 1.2rem;
+    color: #3e3e3e;
+    font-weight: bold;
+}
 @media (max-width: 767px) {
     .navbar {
-        padding: 10px 10px 10px 57px !important
+        padding: 10px 10px !important
     }
 
     .banner {
@@ -69,11 +191,35 @@
 
     .encuentra {
         padding-left: 5px;
-        margin-top: -150px !important;
+        margin-top: -80px !important;
+    }
+
+    .ofertas {
+        padding: 40px 0px
     }
 
     .buscar {
         border-radius: 9px !important;
         padding: 17px 10px 17px 10px !important;
+    }
+
+    .buscador {
+        text-align: center !important;
+
+    }
+    .nuevo{
+    position: absolute;
+    margin-top: 0px !important
+}
+    .centrar {
+        text-align: center !important
+    }
+
+    .card1 {
+        padding-left: 22px !important;
+    }
+
+    .enlace li a {
+        padding-left: 0px !important;
     }
 }
