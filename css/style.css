@@ -1,8 +1,6 @@
 /*Menú*/
 .navbar {
     padding: 10px 95px 0px 57px !important;
-
-
 }
 
 .enlace li a {
@@ -12,17 +10,16 @@
 }
 
 .top-nav-collapse {
-
-    background-color: aqua !important
+    background-color: aqua !important;
 }
 
 .escudo {
     width: 15%;
-    margin-right: 210px
+    margin-right: 210px;
 }
 
 .blocque {
-    display: inline-block !important
+    display: inline-block !important;
 }
 
 .menu {
@@ -53,7 +50,7 @@
     color: #AEAEAE;
     font-family: 'Alatsi', sans-serif;
     line-height: 75px;
-    padding-bottom: 15px
+    padding-bottom: 15px;
 }
 
 .buscador {
@@ -64,7 +61,7 @@
     border-radius: 15px !important;
     padding: 25px 170px 25px 15px !important;
     border: none !important;
-    font-size: 1.3rem !important
+    font-size: 1.3rem !important;
 }
 
 .lupa {
@@ -84,13 +81,11 @@
     width: 100%;
 }
 
-
 .carousel-inner > .row-equal.active,
 .carousel-inner > .row-equal.next,
 .carousel-inner > .row-equal.prev {
     display: flex;
 }
-
 
 .carousel-inner > .row-equal.active.left,
 .carousel-inner > .row-equal.active.right {
@@ -98,24 +93,21 @@
     display: flex;
 }
 
-
-
 .card-img-top-250 {
     max-height: 250px;
     overflow: hidden;
-   
 }
-.flechacentro{
+
+.flechacentro {
     color: #dbaa07 !important;
-    padding: 0px 70px
+    padding: 0px 70px;
 }
+
 .flecha {
     margin-top: 155px;
     position: absolute;
     font-size: 1.5rem;
-    color: #ACACAC !important
-
-
+    color: #ACACAC !important;
 }
 
 .flecha1 {
@@ -124,36 +116,38 @@
 }
 
 .ofertas {
-    padding: 0px 50px 100px 50px
+    padding: 0px 50px 50px 50px;
 }
 
 .cardtar {
-
     border-radius: 15px !important;
     background-color: #F4F4F4 !important;
 }
-.dentro{
+
+.dentro {
     padding: 15px 25px;
     background-color: #F4F4F4;
 }
-.corazon i{
+
+.corazon i {
     font-size: 1.2rem;
     color: #3e3e3e;
 }
 
 .cardtar1 {
     border-top-left-radius: 15px !important;
-    border-top-right-radius: 15px !important
+    border-top-right-radius: 15px !important;
 }
 
-.sansalvador{
+.sansalvador {
     padding-top: 3px;
 }
-.mapa{
-    font-size: 1.2rem;   
+
+.mapa {
+    font-size: 1.2rem;
 }
 
-.localizacion{
+.localizacion {
     color: #999a9b;
 }
 
@@ -163,23 +157,98 @@
     font-weight: 00;
     font-family: 'Alatsi', sans-serif;
 }
-.nuevo{
-    position: absolute;
-    margin-top: -160px
-}
 
-.nombreempresa h6{
+.nombreempresa h6 {
     color: #727476;
     font-weight: bold !important;
+    padding-bottom: 4px;
 }
-.pasantia{
+
+.pasantia {
     font-size: 1.2rem;
     color: #3e3e3e;
     font-weight: bold;
 }
+
+.card1 {
+    height: 328px;
+}
+
+/*Seccion 3 curriculum*/
+.curriculum {
+    background-image: url(../img/backdos1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 260vh;
+    height: 260vh;
+    padding-top: 125px;
+}
+
+.descargaplan {
+    padding-right: 49px;
+}
+
+.primer {
+    padding-right: 88px;
+}
+
+.boton {
+    width: 27%;
+    background: #083971 !important;
+    color: white !important;
+    padding: 8px 0px !important;
+    border-radius: 15px !important;
+    font-weight: bold !important;
+    font-size: 1.3rem !important
+}
+
+.quienessomos {
+    padding-top: 355px;
+    padding-bottom: 35px
+}
+
+.quienessomos h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.empleosotorgados h2 {
+    font-size: 5rem !important;
+    color: white;
+    font-weight: bold;
+}
+
+.empleosotorgados p {
+    font-size: 1.3rem;
+    color: #A89138;
+}
+
+.gestion {
+    padding: 60px 90px;
+}
+
+.gestion1 {
+    padding-left: 60px !important;
+}
+
+.gestion1 h2 {
+    color: #A89138;
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+
+.gestion1 p {
+    color: white;
+    font-weight: bold;
+}
+
+.imgmapa {
+    border-radius: 25px;
+}
+
+/*dispositivos moviles*/
 @media (max-width: 767px) {
     .navbar {
-        padding: 10px 10px !important
+        padding: 10px 10px !important;
     }
 
     .banner {
@@ -195,7 +264,7 @@
     }
 
     .ofertas {
-        padding: 40px 0px
+        padding: 40px 0px;
     }
 
     .buscar {
@@ -205,21 +274,77 @@
 
     .buscador {
         text-align: center !important;
-
     }
-    .nuevo{
-    position: absolute;
-    margin-top: 0px !important
-}
+
+    .nuevo {
+        position: absolute;
+        margin-top: 0px !important;
+    }
+
     .centrar {
-        text-align: center !important
+        text-align: center !important;
     }
 
     .card1 {
         padding-left: 22px !important;
+        height: 350px;
+    }
+
+
+    .imgcarrusel {
+        width: 100%;
     }
 
     .enlace li a {
         padding-left: 0px !important;
     }
+
+    .curriculum {
+        background-image: url(../img/img-curriculum.png);
+        background-repeat: no-repeat;
+        border-image-slice: cover !important;
+
+    }
+
+    .descargaplan {
+        padding-right: 0px !important;
+    }
+
+    .primer {
+        padding-right: 0px;
+    }
+
+    .boton {
+        width: 80%;
+
+
+    }
+
+    .quienessomos {
+        padding-top: 55px
+    }
+
+    .quienessomos h1 {
+        color: #727476;
+        font-weight: 500;
+    }
+
+    .empleosotorgados h2 {
+
+        color: #e8a100;
+
+    }
+
+    .gestion {
+        padding: 0px;
+    }
+
+    .gestion1 {
+        padding-left: 25px !important;
+    }
+
+.gestion1 p{
+    color: #e0950b;
+    font-weight: bold;
+}
 }
