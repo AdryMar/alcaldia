@@ -176,10 +176,10 @@
 
 /*Seccion 3 curriculum*/
 .curriculum {
-    background-image: url(../img/backdos1.png);
+    background-image: url(../img/bannercurr1.png);
     background-repeat: no-repeat;
-    background-size: 100vw 260vh;
-    height: 260vh;
+    background-size: 100vw 237vh;
+    height: 237vh;
     padding-top: 125px;
 }
 
@@ -202,7 +202,7 @@
 }
 
 .quienessomos {
-    padding-top: 355px;
+    padding-top: 470px;
     padding-bottom: 35px
 }
 
@@ -212,7 +212,7 @@
 }
 
 .empleosotorgados h2 {
-    font-size: 5rem !important;
+    font-size: 5.2rem !important;
     color: white;
     font-weight: bold;
 }
@@ -233,17 +233,97 @@
 .gestion1 h2 {
     color: #A89138;
     font-weight: bold;
-    font-size: 2.0rem;
+    font-size: 2.2rem;
 }
 
 .gestion1 p {
     color: white;
     font-weight: bold;
+    font-size: 1.34rem
 }
 
 .imgmapa {
     border-radius: 25px;
 }
+
+/*Seccion 4 Soy una empresa*/
+
+.empresa {
+    background-image: url(../img/13.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 120vh;
+    height: 120vh;
+}
+
+.seccion4 {
+    margin-bottom: -500px !important;
+}
+
+.quierop {
+    font-size: 1.3rem;
+    color: #999a9b;
+}
+
+.encuentra1 h2 {
+    font-size: 4.8rem !important;
+    font-weight: bold;
+    color: #AEAEAE;
+    font-family: 'Alatsi', sans-serif;
+    line-height: 75px;
+    padding-bottom: 15px;
+}
+
+.publicarofertas {
+    padding-left: 190px !important
+}
+
+.espacio {
+    border: 2px solid #b1b1b1 !important;
+    padding: 20px 50px !important;
+    border-radius: 15px !important;
+}
+
+.espacio1 {
+    padding: 10px 50px !important;
+    border-radius: 15px !important;
+    background: #083971 !important
+}
+
+.final {
+    background: #1E1E1E;
+    padding: 100px 0px 30px 0px;
+}
+
+.mapa2 {
+    font-size: 2.0rem;
+    color: #2699FB;
+    padding-right: 35px;
+}
+
+.mapa3 {
+    font-size: 2.0rem;
+    color: #2699FB;
+    padding-top: 60px;
+    transform: rotate(-270deg);
+}
+
+
+.letrasb {
+    color: white;
+    font-size: 13px;
+    color: #afafaf;
+    font-weight: bold
+   
+}
+
+.copy {
+    padding-top: 80px !important;
+    color: #5c5c5c;
+    font-weight: bold;
+    font-size: 0.9rem
+}
+
+
 
 /*dispositivos moviles*/
 @media (max-width: 767px) {
@@ -302,7 +382,8 @@
     .curriculum {
         background-image: url(../img/img-curriculum.png);
         background-repeat: no-repeat;
-        border-image-slice: cover !important;
+        background-size: 100vw 280vh;
+        height: 280vh;
 
     }
 
@@ -337,14 +418,58 @@
 
     .gestion {
         padding: 0px;
+
     }
 
     .gestion1 {
         padding-left: 25px !important;
+
     }
 
-.gestion1 p{
-    color: #e0950b;
-    font-weight: bold;
+    .empresa {
+        background-image: url(../img/3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 700px;
+        height: 90vh;
+    }
+
+    .gestion1 p {
+        color: #e0950b;
+        font-weight: bold;
+    }
+
+    .publicar p {
+        padding-right: 0px;
+    }
+
+    .publicarofertas {
+        padding-left: 0px !important
+    }
+
+    .encuentra1 h2 {
+        padding-top: 50px
+    }
+    .icon1{
+        padding-bottom: 15px
+    }
+    .mapa3 {
+        font-size: 2.0rem;
+        color: #2699FB;
+
+        transform: rotate(-270deg);
+        margin-left: 40px;
+        padding-right: 0px;
+        padding-top: 80px
+    }
+    .horario{
+        padding-top: 20px
+    }
+    .final{
+        padding: 40px 30px
+    }
+    .letrasb {
+    padding-top: 10px
 }
+
 }
